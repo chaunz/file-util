@@ -9,6 +9,8 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 /**
+ *      操作文件类型
+ *
  * @author zhuchuansheng
  * @date: 2020/1/5
  * @time: 10:46
