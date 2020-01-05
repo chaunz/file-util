@@ -11,7 +11,26 @@ import java.io.IOException;
 import java.util.Date;
 
 /**
- *      文件操作
+ * <h1>
+ * 	文件操作类
+ * </h1>
+ * <p>
+ * 	文件操作的类: 封装了对文件的一些简单的操作,具体方法:
+ * </p>
+ * <p>
+ * 	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; getObject(File)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 获取文件封装后的对象
+ * </p>
+ * <p>
+ * 	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span>getObject(String)</span>
+ * </p>
+ * <p>
+ * 	<span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>getOption(FolderObject folderObject)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;获取文件夹操作对象
+ * </p>
+ * <p>
+ * 	<span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>getOption(FileObject fileObject)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;获取文件操作对象<span><br />
+ * <br />
+ * </span>
+ * </p>
  *
  * @author zhuchuansheng
  * @date: 2020/1/5
