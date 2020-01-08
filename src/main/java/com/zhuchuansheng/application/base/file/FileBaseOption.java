@@ -2,6 +2,7 @@ package com.zhuchuansheng.application.base.file;
 
 import com.zhuchuansheng.application.base.OptionBase;
 
+import java.io.File;
 import java.io.Serializable;
 
 /**
@@ -15,5 +16,8 @@ import java.io.Serializable;
  * @time: 20:25
  */
 public abstract class FileBaseOption implements OptionBase, Serializable {
+    @Override
+    public void save(File file) {
 
+    }
 }

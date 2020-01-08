@@ -1,5 +1,7 @@
 package com.zhuchuansheng.application.base;
 
+import java.io.File;
+
 /**
  *      资源操作的规范
  *
@@ -11,5 +13,6 @@ package com.zhuchuansheng.application.base;
  */
 public interface OptionBase {
 
+    void save(File file);
 
 }
