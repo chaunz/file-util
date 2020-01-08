@@ -1,12 +1,5 @@
 package com.zhuchuansheng;
 
-import com.zhuchuansheng.appliection.FileOption;
-import com.zhuchuansheng.appliection.FolderOption;
-import com.zhuchuansheng.appliection.Option;
-import com.zhuchuansheng.entity.FileObject;
-import com.zhuchuansheng.entity.FolderObject;
-import com.zhuchuansheng.type.Type;
-
 import java.io.File;
 
 /**
