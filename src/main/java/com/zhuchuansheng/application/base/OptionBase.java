@@ -1,5 +1,7 @@
 package com.zhuchuansheng.application.base;
 
+import com.zhuchuansheng.entity.ResourceObject;
+
 import java.io.File;
 
 /**
@@ -13,6 +15,33 @@ import java.io.File;
  */
 public interface OptionBase {
 
-    void save(File file);
+    /**
+     *      添加文件
+     *
+     * @param resourceObject
+     */
+    boolean saveResource(ResourceObject resourceObject);
 
+    /**
+     *      查找文件
+     * @return
+     */
+    boolean queryResource();
+
+
+    /**
+     *      删除文件
+     * @param resourceObject        删除的文件
+     * @return
+     */
+    boolean deleteResource(ResourceObject resourceObject);
+
+
+    /**
+     *      修改文件
+     *
+     * @param resourceObject       修改的文件
+     * @return
+     */
+    boolean updateResource(ResourceObject resourceObject);
 }

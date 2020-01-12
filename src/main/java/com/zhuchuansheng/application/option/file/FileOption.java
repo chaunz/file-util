@@ -1,6 +1,7 @@
 package com.zhuchuansheng.application.option.file;
 
 import com.zhuchuansheng.application.base.file.FileBaseOption;
+import com.zhuchuansheng.entity.ResourceObject;
 
 import java.io.Serializable;
 
@@ -16,4 +17,23 @@ import java.io.Serializable;
 public class FileOption extends FileBaseOption implements Serializable {
 
 
+    @Override
+    public boolean saveResource(ResourceObject resourceObject) {
+        return false;
+    }
+
+    @Override
+    public boolean queryResource() {
+        return false;
+    }
+
+    @Override
+    public boolean deleteResource(ResourceObject resourceObject) {
+        return false;
+    }
+
+    @Override
+    public boolean updateResource(ResourceObject resourceObject) {
+        return false;
+    }
 }
